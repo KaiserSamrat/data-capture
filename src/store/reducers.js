@@ -8,9 +8,9 @@ import Layout from './layout/reducer';
 import Login from './login/reducer';
 import loginError from './loginError/reducer';
 import ProductReducer from './Product/reducers';
-
+import GeoReducer from './GEO/reducers';
 import registration from './registration/reducer';
-
+import InfoReducer from './Info/reducers';
 import UserReducer from './User/reducers';
 
 const rootReducer = combineReducers({
@@ -20,7 +20,9 @@ const rootReducer = combineReducers({
   loginError,
   ForgetPassword, 
   ProductReducer,
+  InfoReducer,
   DashboardReducer,
+  GeoReducer,
   Layout,
 });
 
