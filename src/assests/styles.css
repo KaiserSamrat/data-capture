@@ -1,0 +1,972 @@
+.navbar-light .navbar-nav .nav-link {
+  color: #1b3f73;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin-bottom: 0;
+}
+h1 {
+  margin-bottom: 0;
+}
+h2 {
+  margin-bottom: 0;
+}
+h3 {
+  margin-bottom: 0;
+  /* font-size: 20px; */
+}
+h4 {
+  margin-bottom: 0;
+}
+h5 {
+  margin-bottom: 0;
+}
+h6 {
+  margin-bottom: 0;
+}
+body {
+  /* font-family: "Raleway", sans-serif !important; */
+  font-family: "Sora", sans-serif;
+  font-size: 13px;
+}
+.single-case-summery {
+  /* height: 200px; */
+  /* width: 600px; */
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 20px 20px rgba(196, 196, 196, 0.15);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.single-case-summery h3 {
+  color: #333333;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.single-case-summery h5 {
+  color: #333333;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.overview-button button {
+  color: #ffffff;
+  background: #5756d8;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  padding: 12px 50px;
+  float: right;
+  margin-top: 50px;
+}
+.case-summery-list {
+  /* width: 1159px; */
+  background: #ffffff;
+  margin-top: 60px;
+  /* margin-left: 60px;
+  */
+  padding: 30px;
+  box-shadow: 0px 5px 15px rgba(196, 196, 196, 0.15);
+  border-radius: 10px;
+}
+.case-summery-list p {
+  font-size: 14px;
+  line-height: 22px;
+}
+.case-summery-list.jhsjkgjg h4 {
+  font-weight: 600;
+}
+.case-summery-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.case-summery-next-btn {
+  color: #ffffff;
+  width: 150px;
+  background: #5756d8;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px;
+  line-height: 150%;
+  /* box-shadow: 5px 10px 30px rgba(182, 182, 182, 0.15); */
+  border: 1px solid #5756d8;
+  border-radius: 10px;
+}
+.case-summery-previous-btn {
+  color: #5756d8;
+  width: 150px;
+  background: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px;
+  line-height: 150%;
+  /* box-shadow: 5px 10px 30px rgba(182, 182, 182, 0.15); */
+  border: 1px solid #5756d8;
+  border-radius: 10px;
+}
+.recruitment-info h4 {
+  margin-top: 30px;
+  /* font-family: Poppins; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  color: #333333;
+}
+.recruitment-input {
+  text-align: center;
+}
+.recruitment-info h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+}
+.single-recruitment {
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgb(138 139 149 / 10%);
+  border-radius: 10px;
+  /* padding: 10px; */
+  min-height: 335px;
+}
+.single-recruitment-item-main-wrap {
+  display: flex;
+  align-items: center;
+  min-height: 335px;
+  justify-content: center;
+}
+.single-recruitment-image {
+  text-align: center;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recruitment-input p {
+  background: rgba(247, 185, 65, 0.1);
+  /* margin: auto; */
+  padding: 0;
+  border-radius: 6px;
+  text-align: center;
+}
+.single-recruitment-title {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  background: #5756d8;
+  border: 1px solid #5756d8;
+  box-sizing: border-box;
+  border-radius: 10px 10px 0px 0px;
+}
+.single-recruitment-title > h3 {
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff !important;
+}
+.single-recruitment-total {
+  padding: 15px 30px;
+  padding-top: 0;
+}
+.single-recruitment-total p {
+  background: #50a5f1;
+  border-radius: 6px;
+  padding: 8px 25px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.recruitment-total-info p {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.recruitment-counter {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(247, 185, 65, 0.1);
+  margin: 15px 20px;
+  align-items: center;
+}
+.recruitment-counter p {
+  margin-bottom: 0;
+}
+.recruitment-counter button {
+  background: #f7b941;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+}
+.budget-table {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(182, 182, 182, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.budget-table-data {
+  background: #5756d8;
+  border: 1px solid #5756d8;
+  box-sizing: border-box;
+  border-radius: 10px 10px 0px 0px;
+}
+.budget-table th {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+.budget-data {
+  background: rgba(247, 185, 65, 0.1);
+  border: 1px solid #f7b941;
+  box-sizing: border-box;
+  border-radius: 6px;
+  /* margin-left: 45px; */
+}
+.total-budget-data {
+  background: rgba(87, 86, 216, 0.1);
+  border: 1px solid #5756d8;
+  box-sizing: border-box;
+  border-radius: 6px;
+  text-align: center;
+}
+.Tabs {
+  margin: 1rem auto 1.5rem;
+  padding: 1rem 1rem;
+  color: black;
+  font-weight: bold;
+  border-radius: 2rem;
+}
+.month {
+  width: 60%;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #f7b941;
+  border-radius: 1rem;
+}
+.month li {
+  background-color: #ffffff;
+  width: 50%;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.month li:nth-child(2) {
+  border-radius: 0;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.month li:hover {
+  background: #f7b941;
+}
+/* .month li.active {
+  background: #f7b941;
+} */
+ul.month {
+  padding-left: 0;
+}
+.unit-sold {
+  /* width: 500px; */
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgb(138 139 149 / 10%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.unit-sold p {
+  padding: 10px;
+  background: #eeeefb;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.revenue-sold {
+  /* width: 500px; */
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgb(138 139 149 / 10%);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.revenue-sold p {
+  padding: 10px;
+  background: #eeeefb;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.single-revenue-data p {
+  background: rgba(247, 185, 65, 0.1);
+  border-radius: 6px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.radio-items-wrap {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.radio-input-single-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.unit-sold > * > .row {
+  align-items: center;
+}
+.single-revenue {
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgb(138 139 149 / 10%);
+  border-radius: 10px;
+  /* padding: 10px; */
+}
+.revenue-item {
+  box-shadow: 0px 0px 10px 0 #dddddd20;
+  border-radius: 5px;
+}
+
+.revenue-item-table-header {
+  text-align: center;
+  padding: 6px;
+  background: #5756d8;
+  display: flex;
+}
+.revenue-item-table-header h2 {
+  color: #fff;
+  font-size: 18px;
+}
+.financial-revenue-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #a6b0cf;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 1px 10px;
+  box-shadow: 0px 10px 30px rgba(138, 139, 149, 0.1);
+}
+.financial-revenue-item.left-item {
+  margin: 10px 20px;
+}
+.financial-revenue-item.right-item {
+  margin: 10px;
+}
+.revenue-item-bottom-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 60px;
+  padding: 0px 20px;
+  border-top: 2px solid #5756d850;
+}
+.total-net-profit {
+  width: 479px;
+  height: 59px;
+  background: #f7b941;
+  border: 1px solid #f7b941;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.total-net-profit p {
+  font-weight: bold;
+}
+.unit-sold-price h6 {
+  text-align: center;
+}
+/* tbody > tr > td:first-child {
+  width: 40%;
+}
+tbody > tr > td {
+  width: 20%;
+}
+tbody > tr > td > * {
+  width: 80%;
+  margin: auto;
+} */
+.single-financial-data {
+  /* margin-top: 30px; */
+
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgb(138 139 149 / 10%);
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+.single-financial-data h5 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* text-align: center; */
+  color: #000000;
+}
+.progress {
+  display: flex;
+  /* width: 200px; */
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+  margin: 15px 0;
+}
+.progress-bar {
+  background-color: #f7b941;
+}
+.all-financial-data {
+  margin: 50px 0;
+}
+.result-page-full {
+  margin-top: 30px;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgb(138 139 149 / 10%);
+  border-radius: 20px;
+  text-align: center;
+}
+.result-title {
+  font-weight: bold;
+}
+.graph-item-table-header {
+  text-align: center;
+  padding: 6px;
+  background: #5756d8;
+  border-radius: 5px;
+}
+.graph-item {
+  background: #ffffff;
+  /* Shadow Cart */
+  box-shadow: 0px 10px 30px rgba(138, 139, 149, 0.1);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.graph-item-table-header > h2 {
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 0;
+  font-weight: 600;
+}
+.graph-item > * {
+  border: none !important;
+}
+.all-graph-item {
+  margin-top: 30px;
+}
+.net-profit {
+  text-align: center;
+  margin: 122px 0px 120px 0px;
+}
+.net-profit-single h5 {
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+}
+.net-profit-single h4 {
+  font-weight: bold;
+  font-size: 35px;
+  color: black;
+}
+
+.case-method-list {
+  background: #ffffff;
+  margin: 60px 0;
+  padding-top: 10px;
+  box-shadow: 0px 5px 15px rgb(196 196 196 / 20%);
+  border-radius: 10px;
+  position: relative;
+  padding: 1px 30px;
+}
+.drthbvcdftyuiuhjuyg .table > thead {
+  vertical-align: middle;
+}
+.case-method-info {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  /* padding-left: 60px; */
+}
+.table-responsive.finsasdsijk {
+  padding: 25px 40px;
+}
+.case-method-info p {
+  display: inline-block;
+  background: rgba(88, 59, 171, 0.06);
+  border: 1px solid rgba(88, 59, 171, 0.3);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px 25px;
+  color: black;
+  font-size: 13px;
+}
+.case-method-info {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  justify-content: center;
+  padding-left: 0;
+}
+/*Now the CSS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.tree ul {
+  padding-top: 20px;
+  position: relative;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+.tree li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 5px 0 5px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+/*We will use ::before and ::after to draw the connectors*/
+.tree li::before,
+.tree li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 1px solid #f7b941;
+  width: 50%;
+  height: 20px;
+}
+.tree li::after {
+  right: auto;
+  left: 50%;
+  border-left: 1px solid #f7b941;
+}
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+.tree li:only-child::after,
+.tree li:only-child::before {
+  display: none;
+}
+/*Remove space from the top of single children*/
+.tree li:only-child {
+  padding-top: 0;
+}
+/*Remove left connector from first child and 
+right connector from last child*/
+.tree li:first-child::before,
+.tree li:last-child::after {
+  border: 0 none;
+}
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before {
+  border-right: 1px solid #f7b941;
+  border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after {
+  border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+}
+/*Time to add downward connectors from parents*/
+.tree ul ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 1px solid #f7b941;
+  width: 0;
+  height: 20px;
+}
+.tree li a {
+  border: 1px solid #f7b941;
+  padding: 5px 5px;
+  text-decoration: none;
+  color: black;
+  font-family: arial, verdana, tahoma;
+  font-size: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+.tree li a:hover,
+.tree li a:hover + ul li a {
+  background: #f7b941;
+  color: #000;
+  border: 1px solid #f7b941;
+}
+/*Connector styles on hover*/
+.tree li a:hover + ul li::after,
+.tree li a:hover + ul li::before,
+.tree li a:hover + ul::before,
+.tree li a:hover + ul ul::before {
+  border-color: #f7b941;
+}
+.type-of-ratio {
+  display: block;
+  width: 271px;
+  padding: 20px;
+  margin-left: auto;
+  background: rgba(247, 185, 65, 0.02);
+  border: 1px dashed #f7b941;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.tree {
+  display: inline-block;
+}
+.calculation-info {
+  background: rgba(247, 185, 65, 0.06);
+  border: 1px dashed #f7b941;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 20px;
+}
+.revpar-calculation-info {
+  /* margin-top: 200px; */
+  padding: 50px;
+}
+.revpar-hint {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #5756d8;
+}
+.RevPAR-input {
+  /* width: 110px; */
+  height: 30px;
+  background: rgba(247, 185, 65, 0.06);
+  border: 1px solid #f1deba;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 11px;
+}
+.RevPAR-input:focus {
+  outline: none;
+}
+.revpar-calculation-part {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  padding: 10px 25px 10px 50px;
+}
+.revpar-calculation-btn {
+  text-align: center;
+}
+.revpar-calculation-btn button {
+  background: #5756d8;
+  color: white;
+  padding: 7px 40px;
+  border: none;
+  border-radius: 5px;
+}
+.industry-ratio-left {
+  border-right: 1px solid rgba(87, 59, 129, 0.2);
+  padding-right: 60px;
+}
+.comparative-ratio {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.ratio-single-info {
+  background: #f0f4f9;
+  height: 38px;
+}
+.table-ration-input td {
+  width: 20% !important;
+  min-height: 60px !important;
+}
+.table-ration-input td:first-child {
+  width: 40% !important;
+}
+.single-recruitment--bottom-btn {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.single-budget-data {
+  display: flex;
+  gap: 10px;
+}
+.single-recruitment--bottom-btn p {
+  border: 1px solid #f7b941;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.single-recruitment--bottom-btn input {
+  text-align: center;
+  padding: 5px;
+}
+.single-recruitment-title-recruitment-item-main-wrap {
+  display: flex;
+  align-items: center;
+  height: 335px;
+  justify-content: center;
+}
+table.table.budget-table.table-borderless > tbody > tr {
+  border-bottom: 1px solid #ddd;
+}
+table.table.budget-table.table-borderless > tbody > tr:last-child {
+  border-bottom: none;
+}
+table.table.budget-table.table-borderless > tbody > tr > td {
+  padding: 15px 10px;
+  padding-left: 30px;
+}
+table.table.budget-table.table-borderless td > * {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table-data-inner-area-wrap-hukdhvb {
+  justify-content: space-between !important;
+}
+.table-data-inner-area-wrap-hukdhvb input {
+  width: 80%;
+  height: 35px;
+  text-align: center;
+}
+.table-data-inner-area-wrap-hukdhvb > p {
+  width: 60px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border: 1px solid #f7b941;
+  border-radius: 5px;
+  background: #fef8ec;
+}
+td.recruitment-input > input {
+  float: left;
+}
+.header-main-navbar-main-area {
+  background: #fff;
+  padding: 10px 0;
+}
+.main-drag-area-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* gap: 2vw; */
+  margin-top: 50px;
+}
+.single-grid-item {
+  height: 470px;
+  background: #fff;
+  position: relative;
+  box-shadow: 0px 0px 10px 0px #dddddd20;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 32%;
+}
+
+.single-grid-item:nth-child(2) {
+  width: 32%;
+  height: 550px;
+  overflow-y: scroll;
+}
+.single-grid-item:nth-child(3) {
+  width: 32%;
+  height: 550px;
+  overflow-y: scroll;
+}
+.revenue-item-bottom-item {
+  border-top: none;
+}
+.single-grid-item:nth-child(2) .revenue-item-bottom-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 60px;
+  padding: 0px 20px;
+  border-top: 2px solid #5756d850;
+  background: #fff;
+}
+.single-grid-item:nth-child(3) .revenue-item-bottom-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 60px;
+  padding: 0px 20px;
+  border-top: 2px solid #5756d850;
+  background: #fff;
+}
+.revenue-item-table-header {
+  display: none;
+}
+.single-grid-item:nth-child(2) .revenue-item-table-header {
+  text-align: center;
+  padding: 6px;
+  background: #5756d8;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+}
+.single-grid-item:nth-child(3) .revenue-item-table-header {
+  text-align: center;
+  padding: 6px;
+  background: #5756d8;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+  text-transform: capitalize;
+}
+.financial-single-revenue-item.product-details-area {
+  height: 472px;
+}
+.financial-revenue-item {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background: #a6b0cf;
+
+  border-radius: 5px;
+  padding: 10px 10px;
+  box-shadow: 0px 10px 30px rgb(138 139 149 / 10%);
+  gap: 10px;
+}
+.financial-revenue-item.left-item h4 {
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+  font-weight: 600;
+}
+.case-method-list a.navbar__link.navbar__link--active {
+  background: #5756d8;
+  border-radius: 10px;
+}
+.case-method-list a.navbar__link.navbar__link--active p {
+  color: #fff;
+}
+.asgzhhgfd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.asgzhhgfd input {
+  width: 74%;
+}
+
+.revenue-item-bottom-single-item h5 {
+  font-size: 18px;
+}
+.revenue-item-bottom-single-item h4 {
+  font-size: 18px;
+}
+.total-net-profit > div > h5 {
+  font-size: 18px;
+}
+/* ================================================================ */
+.result-page-full {
+  margin-top: 30px;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgb(138 139 149 / 10%);
+  border-radius: 20px;
+  text-align: center;
+  padding: 50px;
+}
+.result-page-top.kduhjnfjgnjvduybghvjk {
+  margin-bottom: 40px;
+}
+
+.revenue-item-bottom-single-item h5 {
+  font-size: 18px;
+}
+
+.total-net-profit > div > h5 {
+  font-size: 18px;
+}
+
+.result-page-top.kduhjnfjgnjvduybghvjk {
+  margin-bottom: 40px;
+}
+
+.result-page-top.kduhjnfjgnjvduybghvjk > div > img {
+  width: 120px;
+  margin-bottom: 25px;
+}
+.profile-hjkdjfbajbknyfa {
+  text-align: left;
+}
+
+.profile-hjkdjfbajbknyfa > * {
+  margin-bottom: 12px;
+}
+.profile-hsjbahfbdgjbh {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile-rank-data-image img {
+  width: 50px;
+  height: 50px;
+  background: rgb(13 110 253 / 25%);
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* ======================= */
+
+.single-financial-data > h5 {
+  font-size: 18px;
+}

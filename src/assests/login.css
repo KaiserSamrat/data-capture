@@ -1,0 +1,238 @@
+.login-main-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+}
+
+.login-left-logo {
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-right-form {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: auto;
+}
+.login-right-form.card-body {
+  min-width: 420px;
+}
+.login-right-inner-form h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.input-field-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  min-width: 420px;
+}
+
+.input-radio-group {
+  background: #1b3f73;
+  width: 64px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.input-radio-group input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  background-clip: content-box;
+  border: 2px solid #1b3f73;
+  background-color: #1b3f73;
+  border-radius: 50%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.input-radio-group input[type="radio"]:checked {
+  background-color: #fff;
+}
+
+.input-field-group input {
+  width: 100%;
+  border: none;
+  background: #eff0f6;
+  padding: 7px 10px;
+  border-radius: 5px;
+}
+
+.input-field-group button {
+  width: 100%;
+  text-align: center;
+  background: #f48a32;
+  color: #fff;
+  padding: 15px 30px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+}
+button.calibarX-default > img {
+  width: 18px;
+}
+
+button.calibarX-default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.input-field-group input::placeholder {
+  font-size: 14px;
+}
+
+.submit-btn {
+  margin-top: 15px;
+}
+
+.input-field-group p {
+  font-size: 16px;
+}
+.input-field-group.input-radio-group-new-account p {
+  font-size: 13px;
+}
+.input-field-group.input-radio-group-new-account p a {
+  color: #5756d8;
+}
+.login-right-form.registration {
+  padding-left: 0;
+}
+.hgfertyhbvfdertyhbg.container-fluid {
+  padding-left: 0;
+}
+.login-right-inner-forms-registration {
+  width: 80%;
+  margin: auto;
+}
+.react-tabs__tab.react-tabs__tab--selected {
+  border: none !important;
+  border-bottom: none !important;
+  /* border-radius: 10px; */
+  color: #5756d8 !important;
+}
+ul.react-tabs__tab-list {
+  border-bottom: 0;
+  text-align: center;
+}
+.react-tabs__tab.react-tabs__tab--selected > span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  top: 3px;
+  border: 1px solid #5756d8;
+}
+.react-tabs__tab.react-tabs__tab--selected > span > span {
+  width: 8px;
+  height: 8px;
+  background: #5756d8;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  top: 2px;
+  border: 1px solid #5756d8 !important;
+}
+.react-tabs__tab:focus {
+  box-shadow: unset !important;
+  border-color: unset !important;
+  outline: none !important;
+}
+.react-tabs__tab:focus:after {
+  display: none;
+}
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid #888686 !important;
+  bottom: 2px !important;
+  position: relative;
+  list-style: none;
+  padding: 10px 25px !important;
+  cursor: pointer;
+  border-radius: 5px !important;
+  font-weight: 600;
+  color: #888686;
+}
+ul.react-tabs__tab-list {
+  border-bottom: 0;
+  text-align: center;
+  display: flex;
+  /* justify-content: center; */
+  gap: 20px;
+  padding: 0px 10px;
+}
+
+.react-tabs__tab > span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: #f9f9fe;
+  border-radius: 50%;
+  position: relative;
+  top: 3px;
+  border: 2px solid #dadada;
+  margin-right: 10px;
+}
+.react-tabs__tab > span > span {
+  width: 8px;
+  height: 8px;
+  /* background: #5756d8; */
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  top: 1px;
+  /* border: 1px solid #5756d8 !important; */
+}
+.input-field-group.submit-btn.jhvnbnjdvbcnjhfbn {
+  width: 100%;
+}
+.form-control {
+  padding: 10px;
+  height: 38px;
+}
+.succsessfull-massage-main-area-wrap {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.succsessfull-massage-content {
+  padding: 15px 0;
+}
+.succsessfull-massage-content h3 {
+  margin-bottom: 10px;
+}
+.succsessfull-massage-content p {
+  color: #64748b;
+}

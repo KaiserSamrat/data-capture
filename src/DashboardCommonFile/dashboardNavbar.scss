@@ -1,0 +1,210 @@
+.main-dashboard {
+  width: 100%;
+  // background: #dddddd2e;
+  height: 100vh;
+  // overflow: hidden;
+  position: relative;
+  transition: 0.3s;
+  overflow-y: scroll;
+  .dashboard-topbar-wrap {
+    background: #fff;
+    height: 70px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    width: 100%;
+    transition: 0.7s;
+    justify-content: space-between;
+    &.showNavbar {
+      img {
+        width: 50px;
+        transition: 0.3s;
+        transition: 0.3s;
+      }
+      a {
+        width: 70px;
+        transition: 0.3s;
+        // margin-right: 20px;
+        text-align: center;
+        transition: 0.3s;
+      }
+      padding: 0;
+    }
+    a {
+      width: 250px;
+      transition: 0.2s;
+      display: block;
+      text-align: center;
+      img {
+        position: relative;
+      }
+    }
+  }
+  .main-navbar-body-area {
+    display: flex;
+    justify-content: space-between;
+    .dashboard-left-navbar-wrap {
+      width: 250px;
+      height: 100vh;
+      background: #fff;
+      position: relative;
+      transition: 0.3s;
+      position: sticky;
+      top: 0;
+      // overflow-y: scroll;
+      .toggle-main-button-area-wrap {
+        position: absolute;
+        position: absolute;
+        right: -30px;
+        top: -56px;
+        button {
+          border: none;
+          background: none;
+          font-size: 17px;
+          cursor: pointer;
+        }
+      }
+    }
+    .dashboard-left-navbar-wrap.showNavbar {
+      width: 70px !important;
+      transition: 0.3s;
+      position: relative;
+    }
+    .dashboard-main-body-wrap {
+      background: #f8f8fb;
+      width: 87%;
+      height: 100%;
+      transition: 0.3s;
+      padding-left: 25px;
+      padding-right: 25px;
+      // padding-top: 20px;
+    }
+  }
+}
+.nav-link-selected {
+  // background: #4eb94d1a;
+  font-weight: 600;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    transition: 0.3s;
+    height: 72%;
+    transition: 0.3s;
+    background: #e5414c;
+    right: 0;
+    top: 0;
+    transition: 0.2s;
+  }
+}
+.header-topbar-right-content-wrap {
+  width: 135%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0px 50px;
+  padding-right: 0;
+}
+.header-topbar-right-content-wrap-right-area {
+  padding-right: 20px;
+}
+// @media (min-width: 768px) {
+//   .d-flex.justify-content-between.text-center {
+//     flex-wrap: wrap;
+//   }
+// }
+.react-responsive-modal-modal.add-division-Modal {
+  min-width: 600px;
+}
+
+.react-responsive-modal-modal.add-division-Modal {
+  :hover {
+    border-color: hsl(0deg 9% 40%);
+  }
+  input.form-control {
+    height: 38px;
+    padding: 6px;
+  }
+}
+label.form-label {
+  text-transform: capitalize;
+}
+.react-responsive-modal-modal.add-division-Modal.profile-view-bndfv {
+  min-width: 992px;
+}
+.add-division-title-top > * > img {
+  width: 80px;
+  height: 80px;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+.react-responsive-modal-modal.allInstituteModal-kjgfhbj {
+  min-width: 600px;
+  button.popup-form-submit.btn.btn-success {
+    display: block;
+    width: 100%;
+  }
+  .issue-list-popup-wrap--jvnd {
+    textarea.form-control {
+      min-height: 150px;
+    }
+  }
+}
+.dashboard-sidebar-nav-area.showNavbar {
+  .navbar-link-dashboard-page-components-wrap.showNavbar {
+    .dropdown {
+      width: 100%;
+      button {
+        display: block !important;
+        span {
+          display: none;
+        }
+      }
+    }
+    .dropdown-menu.show {
+      position: absolute !important;
+      transform: translate(190px, -40px) !important;
+      background: white !important;
+      z-index: 100;
+      -webkit-transform: translate(190px, -40px) !important;
+      -moz-transform: translate(190px, -40px) !important;
+      -ms-transform: translate(190px, -40px) !important;
+      -o-transform: translate(190px, -40px) !important;
+    }
+    .dropdown-toggle::after {
+      right: -10px;
+      position: relative;
+      top: -2px;
+    }
+  }
+}
+.dashboard-data-chart-area-wrap {
+  position: relative;
+}
+
+.dashboard-sidebar-nav-area {
+  .navbar-link-dashboard-page-components-wrap {
+    .dropdown {
+      width: 140px;
+    }
+    button {
+      background: transparent;
+      color: #555;
+      border: none;
+      padding: 0;
+      display: flex !important;
+      align-items: center;
+      // justify-content: space-between;
+      width: 100%;
+    }
+  }
+}
+.login-page-site-logo img {
+  width: 120px;
+  margin: auto;
+  margin-bottom: 50px;
+}

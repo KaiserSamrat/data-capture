@@ -1,0 +1,16 @@
+.breadcrumb-main-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  h4 {
+    font-weight: 500;
+    color: #74788d;
+  }
+}
+.breadcrumb-main-wrap h4 {
+  color: #74788d;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-weight: 400;
+}

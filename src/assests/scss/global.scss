@@ -1,0 +1,73 @@
+.button {
+  border-radius: 10px;
+  background-color: #0b2e4e;
+
+  padding: 10px 19px;
+  color: #fff;
+  &:hover {
+    color: #fff;
+    background-color: #010c17;
+    border-color: #010c17;
+  }
+}
+.bg_violet {
+  background-color: $color_violet !important;
+}
+.text_violet {
+  color: $color_violet !important;
+}
+
+.text_green {
+  color: $text-green !important;
+}
+
+.pointer_event {
+  cursor: pointer;
+}
+.tableCheckBox {
+  width: 0.7rem !important;
+  height: 1rem !important;
+  min-height: 1rem !important;
+}
+.paginationContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  ul {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    li.prevNext {
+      background-color: transparent;
+      i {
+        font-size: 18px;
+      }
+    }
+    li {
+      padding: 4px 14px;
+      background-color: #eff2f7;
+      border-radius: 50%;
+      margin: 0 3px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      button {
+        padding: none;
+        border: none;
+        background-color: transparent;
+      }
+    }
+  }
+  .activePage {
+    background-color: $color_violet;
+    color: #fff;
+  }
+}
+
+.nav-tabs-custom .nav-item .nav-link.active {
+  color: $color_violet !important;
+}
+
+.nav-tabs-custom .nav-item .nav-link::after {
+  background-color: $color_violet !important;
+}

@@ -1,0 +1,239 @@
+.dashboard {
+  .select2-selection__control {
+    background-color: #f4f1f9 !important;
+  }
+  .construction-chart text {
+    fill: #ffffff !important;
+  }
+  .construction-chart text {
+    font-size: 15px !important;
+  }
+  p {
+    font-size: 11px !important;
+  }
+  .card {
+    border: 1px solid #eaeaea;
+  }
+  // .media {
+  //   display: flex;
+  //   align-items: flex-start;
+  //   .media-body {
+  //     flex: 1;
+  //   }
+  // }
+  .dashboard-top-area {
+    p {
+      color: #74788d;
+    }
+  }
+  .select-area {
+    // width: 46%;
+    select {
+      border-radius: 20px !important;
+    }
+  }
+  .large-select-area {
+    width: 31%;
+    select {
+      border-radius: 20px !important;
+    }
+  }
+  .extra-large-select-area {
+    width: 23%;
+    select {
+      border-radius: 20px !important;
+    }
+  }
+  .pot-value-section {
+    span.construction-border-left-area:before {
+      content: "";
+      width: 6px;
+      height: 101%;
+      background: #00ba88;
+      position: absolute;
+      border-radius: 4px;
+      top: -1px;
+    }
+    span.paint-border-left-area:before {
+      content: "";
+      width: 6px;
+      height: 101%;
+      background: #ff9900;
+      position: absolute;
+      border-radius: 4px;
+      top: -1px;
+    }
+    .card-body {
+      p {
+        color: #adb3bd;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+  }
+  .hwc-section {
+    .hot {
+      background: rgba(239, 77, 57, 0.12);
+      border: 1px solid #ef4d39;
+      border-radius: 4px;
+      box-shadow: 0px 10px 20px rgba(173, 181, 189, 0.1);
+      p {
+        color: #ef4d39;
+        font-weight: 600;
+        font-size: 14px;
+      }
+      h4 {
+        color: #ef4d39;
+      }
+    }
+    .warm {
+      background: rgba(237, 160, 28, 0.12);
+      border: 1px solid #eda01c;
+      border-radius: 4px;
+      p {
+        color: #eda01c;
+        font-weight: 600;
+        font-size: 14px;
+      }
+      h4 {
+        color: #eda01c;
+      }
+    }
+    .cold {
+      background: rgba(85, 110, 230, 0.12);
+      border: 1px solid #556ee6;
+      border-radius: 4px;
+      p {
+        color: #556ee6;
+        font-weight: 600;
+        font-size: 14px;
+      }
+      h4 {
+        color: #556ee6;
+      }
+    }
+  }
+  .paint-section {
+    .card-body {
+      p {
+        color: #adb3bd;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+    span.wet-border-left-area:before {
+      content: "";
+      width: 6px;
+      height: 101%;
+      background: #00bcd5;
+      position: absolute;
+      border-radius: 4px;
+      top: -1px;
+    }
+    span.interior-border-left-area:before {
+      content: "";
+      width: 6px;
+      height: 101%;
+      background: #ad1457;
+      position: absolute;
+      border-radius: 4px;
+      top: -1px;
+    }
+    span.exterior-border-left-area:before {
+      content: "";
+      width: 6px;
+      height: 101%;
+      background: #2879fe;
+      position: absolute;
+      border-radius: 4px;
+      top: -1px;
+    }
+  }
+  .structure-section {
+    .card-body {
+      p {
+        color: #adb3bd;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+    span.new-structure-border-left-area:before {
+      content: "";
+      width: 6px;
+      height: 101%;
+      background: #d500fa;
+      position: absolute;
+      border-radius: 4px;
+      top: -1px;
+    }
+    span.old-structure-border-left-area:before {
+      content: "";
+      width: 6px;
+      height: 101%;
+      background: #6a1b9a;
+      position: absolute;
+      border-radius: 4px;
+      top: -1px;
+    }
+  }
+  .construction-section {
+    .card-body {
+      p {
+        color: #adb3bd;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+    span.boq-structure-border-left-area:before {
+      content: "";
+      width: 6px;
+      height: 101%;
+      background: #7e57c2;
+      position: absolute;
+      border-radius: 4px;
+      top: -1px;
+    }
+    span.sub-structure-border-left-area:before {
+      content: "";
+      width: 6px;
+      height: 101%;
+      background: #f9a825;
+      position: absolute;
+      border-radius: 4px;
+      top: -1px;
+    }
+    span.super-structure-border-left-area:before {
+      content: "";
+      width: 6px;
+      height: 101%;
+      background: #2879fe;
+      position: absolute;
+      border-radius: 4px;
+      top: -1px;
+    }
+    span.paint-assigned-border-left-area:before {
+      content: "";
+      width: 6px;
+      height: 101%;
+      background: #00bcd5;
+      position: absolute;
+      border-radius: 4px;
+      top: -1px;
+    }
+  }
+  @media (max-width: 640px) {
+    .custom_select {
+      min-width: 315px !important;
+      margin-bottom: 20px;
+    }
+    .paint-pot-responsive {
+      margin-right: 34px;
+    }
+    .construction-pot-responsive {
+      margin-right: 9px;
+    }
+    .total-areas-responsive {
+      margin-right: 36px;
+    }
+  }
+}

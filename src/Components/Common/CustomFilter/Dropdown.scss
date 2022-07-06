@@ -1,0 +1,82 @@
+.mainDropDown {
+  // box-shadow: 0 0 5px #ddd;
+  background-color: #f7faff;
+  border: 1px solid #ddd;
+  // overflow: hidden;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #636363;
+  position: relative;
+  .newDropdown {
+    border: none !important;
+    background-color: transparent !important;
+  }
+  .dropdown-menu.show {
+    top: 100% !important;
+    right: 0 !important;
+  }
+  .brandSpan {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .searchInput {
+    width: 100%;
+    border: none;
+    padding: 8px;
+    // margin: 1px;
+    background-color: #ffffff;
+    &:focus {
+      border: none !important;
+      box-shadow: none;
+      outline: none;
+    }
+  }
+  .newDropdown {
+    width: 100%;
+    text-align: left;
+    &:focus,
+    &:active {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+    outline: none;
+    // padding: 8px;
+    .select {
+      border: none;
+      //   padding: 8px;
+      color: rgb(99, 99, 99);
+    }
+  }
+  .sizesDropDown {
+    &::-webkit-scrollbar {
+      width: 5px;
+      background-color: transparent !important;
+      border-radius: 50%;
+    }
+    &::-webkit-scrollbar-thumb:vertical {
+      background: #7c7c7cfb !important;
+      border-radius: 20px;
+      // transition: all 650ms ease-in !important;
+    }
+    &::-webkit-scrollbar-track:vertical:hover {
+      background: #dfdfdfde !important;
+      border-radius: 20px;
+    }
+
+    &::-webkit-scrollbar-thumb:horizontal {
+      background: #7c7c7cfb !important;
+      border-radius: 20px;
+      // transition: all 650ms ease-in !important;
+    }
+    &::-webkit-scrollbar-track:horizontal:hover {
+      background: #dfdfdfde !important;
+      border-radius: 20px;
+    }
+    .dropDownItem {
+      &:hover {
+        background-color: #dbd6d6;
+      }
+    }
+  }
+}

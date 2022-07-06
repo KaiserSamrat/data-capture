@@ -1,0 +1,25 @@
+body {
+  font-family: "Sora", sans-serif !important;
+  font-size: 11px !important;
+  color: #495057;
+  /* transition: 0.3s; */
+  scroll-behavior: smooth;
+}
+.main-dashboard .dashboard-topbar-wrap a > img {
+  height: 65px;
+  position: relative;
+  left: -20px;
+}
+::placeholder {
+  font-size: 12px;
+}
+.filter-box.add-division-btn button {
+  border-color: #ced4da;
+  font-size: 14px;
+}
+select.form-select {
+  font-size: 14px;
+}
+p {
+  margin-bottom: 0;
+}
